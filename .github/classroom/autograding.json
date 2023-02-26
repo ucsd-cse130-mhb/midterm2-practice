@@ -1,28 +1,8 @@
 {
   "tests": [
     {
-      "name": "lookup1",
-      "run": "stack test --ta '--pattern \"lookup1\"'",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 3.0
-    },
-    {
-      "name": "lookup2",
-      "run": "stack test --ta '--pattern \"lookup2\"'",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 3.0
-    },
-    {
-      "name": "EBin 1",
-      "run": "stack test --ta '--pattern \"EBin 1\"'",
+      "name": "FoldTables fold 1",
+      "run": "stack test --ta '--pattern \"FoldTables fold 1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -31,8 +11,8 @@
       "points": 5.0
     },
     {
-      "name": "EBin 2",
-      "run": "stack test --ta '--pattern \"EBin 2\"'",
+      "name": "FoldTables fold 2",
+      "run": "stack test --ta '--pattern \"FoldTables fold 2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -41,18 +21,8 @@
       "points": 5.0
     },
     {
-      "name": "1a.1",
-      "run": "stack test --ta '--pattern \"/1a - c1/\"'",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4.0
-    },
-    {
-      "name": "1a.2",
-      "run": "stack test --ta '--pattern \"/1a - (/\"'",
+      "name": "FoldTables tmap 1",
+      "run": "stack test --ta '--pattern \"FoldTables tmap 1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -61,8 +31,8 @@
       "points": 5.0
     },
     {
-      "name": "1b.1",
-      "run": "stack test --ta '--pattern \"/1b - True/\"'",
+      "name": "FoldTables tmap 2",
+      "run": "stack test --ta '--pattern \"FoldTables tmap 2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -71,8 +41,8 @@
       "points": 5.0
     },
     {
-      "name": "1b.2",
-      "run": "stack test --ta '--pattern \"/1b - bt/\"'",
+      "name": "FoldTables maxKey 1",
+      "run": "stack test --ta '--pattern \"FoldTables maxKey 1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -81,8 +51,18 @@
       "points": 5.0
     },
     {
-      "name": "1c",
-      "run": "stack test --ta '--pattern \"1c\"'",
+      "name": "FoldTables maxKey 2",
+      "run": "stack test --ta '--pattern \"FoldTables maxKey 2\"'",
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10.0
+    },
+    {
+      "name": "FoldTables mostFrequent 1",
+      "run": "stack test --ta '--pattern \"FoldTables mostFrequent 1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -91,8 +71,18 @@
       "points": 5.0
     },
     {
-      "name": "1d",
-      "run": "stack test --ta '--pattern \"1d\"'",
+      "name": "FoldTables mostFrequent 2",
+      "run": "stack test --ta '--pattern \"FoldTables mostFrequent 2\"'",
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10.0
+    },
+    {
+      "name": "Reduce A1",
+      "run": "stack test --ta '--pattern \"Reduce A1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -101,8 +91,8 @@
       "points": 5.0
     },
     {
-      "name": "1e",
-      "run": "stack test --ta '--pattern \"/1e - eval/\"'",
+      "name": "Reduce A2",
+      "run": "stack test --ta '--pattern \"Reduce A2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -111,8 +101,8 @@
       "points": 5.0
     },
     {
-      "name": "1f.1",
-      "run": "stack test --ta '--pattern \"/1f - rec/\"'",
+      "name": "Reduce A3",
+      "run": "stack test --ta '--pattern \"Reduce A3\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -121,8 +111,8 @@
       "points": 5.0
     },
     {
-      "name": "1f.2",
-      "run": "stack test --ta '--pattern \"/1f - VPrim 1/\"'",
+      "name": "Reduce A4",
+      "run": "stack test --ta '--pattern \"Reduce A4\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -131,8 +121,8 @@
       "points": 5.0
     },
     {
-      "name": "1f.3",
-      "run": "stack test --ta '--pattern \"/1f - VPrim 2/\"'",
+      "name": "Reduce B1",
+      "run": "stack test --ta '--pattern \"Reduce B1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -141,8 +131,8 @@
       "points": 5.0
     },
     {
-      "name": "1e/f",
-      "run": "stack test --ta '--pattern \"/sumList tail/\"'",
+      "name": "Reduce B2",
+      "run": "stack test --ta '--pattern \"Reduce B2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -151,8 +141,8 @@
       "points": 5.0
     },
     {
-      "name": "t1.hs",
-      "run": "stack test --ta '--pattern \"t1.hs\"'",
+      "name": "Reduce B3",
+      "run": "stack test --ta '--pattern \"Reduce B3\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -161,8 +151,8 @@
       "points": 5.0
     },
     {
-      "name": "t2.hs",
-      "run": "stack test --ta '--pattern \"t2.hs\"'",
+      "name": "Reduce C1",
+      "run": "stack test --ta '--pattern \"Reduce C1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -171,8 +161,8 @@
       "points": 5.0
     },
     {
-      "name": "t3.hs",
-      "run": "stack test --ta '--pattern \"t3.hs\"'",
+      "name": "Reduce C2",
+      "run": "stack test --ta '--pattern \"Reduce C2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -181,8 +171,8 @@
       "points": 5.0
     },
     {
-      "name": "t4.hs",
-      "run": "stack test --ta '--pattern \"t4.hs\"'",
+      "name": "Reduce C3",
+      "run": "stack test --ta '--pattern \"Reduce C3\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -191,8 +181,8 @@
       "points": 5.0
     },
     {
-      "name": "t5.hs",
-      "run": "stack test --ta '--pattern \"t5.hs\"'",
+      "name": "Reduce C4",
+      "run": "stack test --ta '--pattern \"Reduce C4\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -201,8 +191,8 @@
       "points": 5.0
     },
     {
-      "name": "t6.hs",
-      "run": "stack test --ta '--pattern \"t6.hs\"'",
+      "name": "Reduce C5",
+      "run": "stack test--ta '--pattern \"Reduce C5\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -211,8 +201,8 @@
       "points": 5.0
     },
     {
-      "name": "t8.hs",
-      "run": "stack test --ta '--pattern \"t8.hs\"'",
+      "name": "Reduce C6",
+      "run": "stack test --ta '--pattern \"Reduce C6\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -221,8 +211,8 @@
       "points": 5.0
     },
     {
-      "name": "t9.hs",
-      "run": "stack test --ta '--pattern \"t9.hs\"'",
+      "name": "Reduce C7",
+      "run": "stack test --ta '--pattern \"Reduce C7\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -231,8 +221,8 @@
       "points": 5.0
     },
     {
-      "name": "t10.hs",
-      "run": "stack test --ta '--pattern \"t10.hs\"'",
+      "name": "noLets 1",
+      "run": "stack test --ta '--pattern \"noLets 1\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -241,8 +231,8 @@
       "points": 5.0
     },
     {
-      "name": "t11.hs",
-      "run": "stack test --ta '--pattern \"t11.hs\"'",
+      "name": "noLets 2",
+      "run": "stack test --ta '--pattern \"noLets 2\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -251,8 +241,8 @@
       "points": 5.0
     },
     {
-      "name": "t12.hs",
-      "run": "stack test --ta '--pattern \"t12.hs\"'",
+      "name": "noLets 3",
+      "run": "stack test --ta '--pattern \"noLets 3\"'",
       "setup": "",
       "input": "",
       "output": "",
@@ -261,54 +251,34 @@
       "points": 5.0
     },
     {
-      "name": "t13.hs",
-      "run": "stack test --ta '--pattern \"t13.hs\"'",
+      "name": "desugar 1",
+      "run": "stack test --ta '--pattern \"desugar 1\"'",
       "setup": "",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5.0
+      "points": 10.0
     },
     {
-      "name": "t14.hs",
-      "run": "stack test --ta '--pattern \"t14.hs\"'",
+      "name": "desugar 2",
+      "run": "stack test --ta '--pattern \"desugar 2\"'",
       "setup": "",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5.0
+      "points": 10.0
     },
     {
-      "name": "t15.hs",
-      "run": "stack test --ta '--pattern \"t15.hs\"'",
+      "name": "desugar 3",
+      "run": "stack test --ta '--pattern \"desugar 3\"'",
       "setup": "",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5.0
-    },
-    {
-      "name": "t16.hs",
-      "run": "stack test --ta '--pattern \"t16.hs\"'",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5.0
-    },
-    {
-      "name": "t17.hs",
-      "run": "stack test --ta '--pattern \"t17.hs\"'",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5.0
+      "points": 10.0
     }
   ]
 }
