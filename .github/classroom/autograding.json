@@ -192,7 +192,7 @@
     },
     {
       "name": "Reduce C5",
-      "run": "stack test--ta '--pattern \"Reduce C5\"'",
+      "run": "stack test --ta '--pattern \"Reduce C5\"'",
       "setup": "",
       "input": "",
       "output": "",

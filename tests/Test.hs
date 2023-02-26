@@ -15,7 +15,7 @@ main = runTests [ unit ]
 parse = Nano.parse
 
 unit :: Score -> TestTree
-unit sc = testGroup "NANO"
+unit sc = testGroup "NANO2"
   [ scoreTest ( uncurry (Nano.fold (\k v b -> k : b))
               , ([], Nano.t0)
               , (["aardvark","boa","cat"])
