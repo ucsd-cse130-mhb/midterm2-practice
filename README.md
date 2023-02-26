@@ -26,7 +26,7 @@ the file.
 All test cases rely on `reduce1` being completed - there are no test cases
 that test only `isValue` or `subst`.
 
-## Problem 3: Removing the Let Bindings (45 poins)
+## Problem 3: Removing the Let Bindings (45 points)
 Complete the functions `noLets` and `desugar` in
 [Desugar.hs](src/Language/Nano2/Desugar.hs). The requirements are described
 in the file.
