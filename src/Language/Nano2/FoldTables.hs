@@ -48,7 +48,7 @@ fold op b (Bind k v t) = error "TBD: fold bind"
 -- >>> fold (\k v b -> k : b) [] t0
 -- ["aardvark","boa","cat"]
 
--- >>> fold (\k v b ->  v : b) [] t1
+-- >>> fold (\k v b ->  v : b) [] t0
 -- [100,20,30]
 
 -- (B) Map using fold
